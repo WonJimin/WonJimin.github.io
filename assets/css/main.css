@@ -1,3 +1,4 @@
+@import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web");
 /*
 	Prologue by HTML5 UP
@@ -2157,7 +2158,7 @@ button:active,
     border: 0;
   }
   #headerToggle .toggle:before {
-    font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+    font-family: FontAwesome;
     text-decoration: none;
     font-style: normal;
     font-weight: normal;

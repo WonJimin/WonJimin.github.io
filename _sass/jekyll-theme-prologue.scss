@@ -2,6 +2,7 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
+@import url("font-awesome.min.css");
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web'); 
 
 /*
@@ -980,7 +981,7 @@
 					border: 0;
 
 					&:before {
-						font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+						font-family: FontAwesome;
 						text-decoration: none;
 						font-style: normal;
 						font-weight: normal;
