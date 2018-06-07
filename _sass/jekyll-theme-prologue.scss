@@ -1,9 +1,8 @@
+@charset 'utf-8';
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
-@charset "UTF-8";
-@import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web'); 
 
 /*
 	Prologue by HTML5 UP
@@ -62,7 +61,7 @@
 
 	body {
 		background: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -75,7 +74,7 @@
 	}
 
 	input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -476,7 +475,7 @@
 
 		&:before {
 			display: inline-block;
-			font-family: FontAwesome;
+			font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
 			font-size: 1.25em;
 			text-decoration: none;
 			font-style: normal;
@@ -658,7 +657,7 @@
 			text-align: left;
 			header {
 				p {
-					font-style: italic;
+					// font-style: italic;
 				}
 			}
 		}
@@ -982,7 +981,7 @@
 					border: 0;
 
 					&:before {
-						font-family: FontAwesome;
+						font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
 						text-decoration: none;
 						font-style: normal;
 						font-weight: normal;

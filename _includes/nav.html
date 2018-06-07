@@ -12,18 +12,13 @@
       {%- for _page in _pages -%}
         {%- assign _title = _page.title | default: _page.layout -%}
         {%- assign _slug = _title | slugify -%}
-        {%- assign _icon = _page.icon | default: 'fa-link' -%}
         {%- comment -%}<!-- page.url (no underscore) is the url of the current page-->{%- endcomment -%}
         {%- if _page.url == page.url -%}
-          <li><a href="#" id="{{- _slug -}}" class="active">
-            <span class="icon {{ _icon }}">{{- _title -}}</span>
-          </a></li>
+          <li><a href="#" id="{{- _slug -}}" class="active">{{- _title -}}</a></li>
         {%- elsif _page.url -%}
-          <li><a href="{{- _page.url | absolute_url -}}" id="{{- _slug -}}-link">
-            <span class="icon {{ _icon }}">{{- _title -}}</span>
-          </a></li>
+          <li><a href="{{- _page.url | absolute_url -}}" id="{{- _slug -}}-link">{{- _title -}}</a></li>
         {%- else -%}
-          <li><a href="{{- '/' | absolute_url -}}" id="broken-link"><span class="icon fa-unlink">[broken link]</span></a></li>
+          <li><a href="{{- '/' | absolute_url -}}" id="broken-link">[broken link]</a></li>
         {%- endif -%}
       {%- endfor -%}
     {%- endunless -%}
@@ -33,8 +28,9 @@
       {%- for _sect in _sections -%}
         {%- assign _title = _sect.title | default: _sect.layout | default: 'Untitled' -%}
         {%- assign _slug = _title | slugify -%}
-        {%- assign _icon = _sect.icon | default: 'fa-file' -%}
-        <li><a href="#{{- _slug -}}" id="{{- _slug -}}-link" class="scrolly"><span class="icon {{ _icon }}">{{- _title -}}</span></a></li>
+          {%- if page.title == _sect.category -%}
+            <li><a href="#{{- _slug -}}" id="{{- _slug -}}-link" class="scrolly">{{- _title -}}</a></li>
+          {%- endif -%} 
       {%- endfor -%}
     {%- endunless -%}
   </ul>
