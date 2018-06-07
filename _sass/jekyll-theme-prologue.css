@@ -1290,7 +1290,7 @@ body {
   font-size: 19pt;
   font-weight: 300;
   line-height: 1.75em;
-  color: #888;
+  color: #010101;
 }
 
 body.is-loading * {
@@ -1310,7 +1310,6 @@ input, textarea, select {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
-  color: #666;
   line-height: 1.5em;
 }
 
@@ -1345,8 +1344,7 @@ footer {
 }
 
 strong, b {
-  font-weight: 300;
-  color: #666;
+  font-weight: 600;
 }
 
 em, i {
@@ -1385,28 +1383,24 @@ hr {
 }
 
 code {
-  background: rgba(0, 0, 0, 0.05);
+  background: #1e1e1e;
   border-color: rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  font-family: "Courier New", monospace;
+  font-family: Consolas, "Courier New", monospace;
   font-size: 0.9em;
   padding: 0.25em 0.325em;
 }
 
 pre {
   -webkit-overflow-scrolling: touch;
-  font-family: "Courier New", monospace;
-  font-size: 0.9em;
-  -moz-tab-size: 4;
-    -o-tab-size: 4;
-       tab-size: 4;
   margin: 0 0 2em 0;
+  white-space: pre-line;
 }
 
-pre code {
+.code code {
   display: block;
   line-height: 1.5;
-  padding: 0.75em 1em;
+  padding: 1.5em 1em;
   overflow-x: auto;
 }
 
@@ -1418,7 +1412,7 @@ blockquote {
 }
 
 p, ul, ol, dl, table {
-  margin-bottom: 2em;
+  margin-bottom: 0.5em;
 }
 
 dl dt {

@@ -1,1 +1,35 @@
-@import "../../_sass/jekyll-theme-prologue";
+@import "../../_sass/jekyll-theme-prologue";  
+
+/* add */
+ol {
+    list-style: decimal-leading-zero;
+    line-height: 1;
+}
+code{
+    color: #808080;
+    .tag {
+        color: #dcdcaa;
+    } 
+    .text {
+        color: #d4d4d4;
+    }
+    .script { 
+        color: #569cd6
+    } 
+    .variable { 
+        color: #9cdcfe
+    }
+    .function { 
+        color: #dcdcaa;
+    }
+    .annotation {
+        color: #608b4e
+    }
+    .spc {
+        color: #e91e63; 
+    }
+}
+.bg_faf4c0 {
+    padding:0 4px; 
+    background-color: #faf4c0;
+}

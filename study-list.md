@@ -8,7 +8,4 @@ order: 10
 1. React
 2. Webpak
 3. Git
-4. Pure Javascript
-5. ES6
-
-<!-- source: [The Guardian](https://www.theguardian.com/books/booksblog/2011/jan/04/best-boring-books) -->
+4. ES5/ES6
