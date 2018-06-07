@@ -2259,38 +2259,45 @@ button:active,
 /* add */
 ol {
   list-style: decimal-leading-zero;
+}
+
+ol.ol {
   line-height: 1;
 }
 
-code {
+.code .copyPaste {
+  white-space: pre-wrap !important;
+}
+
+.code code {
   color: #808080;
 }
 
-code .tag {
+.code code .tag {
   color: #dcdcaa;
 }
 
-code .text {
+.code code .text {
   color: #d4d4d4;
 }
 
-code .script {
+.code code .script {
   color: #569cd6;
 }
 
-code .variable {
+.code code .variable {
   color: #9cdcfe;
 }
 
-code .function {
+.code code .function {
   color: #dcdcaa;
 }
 
-code .annotation {
+.code code .annotation {
   color: #608b4e;
 }
 
-code .spc {
+.code code .spc {
   color: #e91e63;
 }
 

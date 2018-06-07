@@ -14,7 +14,7 @@ layout: post
 
     <b>*</b> 함수가 정의 될 때는 2가지 일이 일어난다.
     <div class="image"><img src="https://t1.daumcdn.net/cfile/tistory/99A2913D5AC7275710"></div> 
-    <ol>
+    <ol class="ol">
         <li>해상 함수에 Constructor(생성자) 자격 부여.</li>
         <li>해당 함수의 Prototype Object 생성 및 연결</li>
     </ol>
