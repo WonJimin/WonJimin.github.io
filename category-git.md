@@ -1,5 +1,5 @@
 ---
 layout: blog
-title: web
-order: 7
+title: git
+order: 6
 ---
