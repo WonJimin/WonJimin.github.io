@@ -51,7 +51,6 @@
 				$nav_a
 					.scrolly()
 					.on('click', function(e) {
-
 						var t = $(this),
 							href = t.attr('href');
 
